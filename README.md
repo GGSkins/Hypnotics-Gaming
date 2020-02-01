@@ -8,28 +8,29 @@
 <p>Skin - Catalog</p>
 
 ### ★ Descripción de nuestro programa
-<p> ✦ Nuestro aplicación es sobre realizar un catálogo de skins, principalmente de CSGO (Counter Strike), con el cual puedan revisar el total de skins y todos sus estados, en conjunto con los precios existentes del mercado de skins.</p>
+<p> ✦ Nuestra aplicación consiste en un catálogo de skins y artículos varios, principalmente del videojuego de Valve, CS:GO (Counter Strike), que facilita la búsqueda de skins, sus estados posibles, información destacada y precios en el mercado en línea.</p>
 
 ### ★ Objetivo general
-<p> ✦ Realizar un listado completo de las skins u objetos cosméticos de un juegos, a través de una aplicación móvil</p>
+<p> ✦ Realizar un listado completo de las skins y objetos cosméticos de un juego, a través de una aplicación móvil.</p>
 
 ### ★ Objetivo específico
-<p> ✦ Planeamos realizar un listado de skins mediante una app móvil, por la cual los "Gamers" o usuarios puedan ingresar y tener a su alcance una lista completa de las skins de juegos que tengamos registrados, en este caso, comenzaremos con el juego llamado "Counter Strike: Global Offessive" que contiene los siguientes objetos: .</p> 
-      *Skins
-      *Guantes
-      *Kits de música
-      *Stickers
-      *Graffitis 
-      *Cuchillos
-      *Skins para jugador
-      *Pins coleccionables
-      *Cajas 
+<p> ✦ Realizar una aplicación movil, que permita a los usuarios un fácil acceso a la información destacable de todos los artículos y skins de cada uno de los videojuegos que tengamos registrados, y de ser posible, sus precios actuales en el mercado en línea, en este caso, nuestro primer enfoque es el videojuego "Counter Strike: Global Offensive", cuyos principales objetos son los siguientes:</p> 
 
+      *Skins para armas
+      *Cuchillos
+      *Guantes
+      *Cajas
+      *Skins para jugador
+      *Stickers
+      *Kits de música
+      *Graffitis
+      *Pins coleccionables
+     
 ### ★ Justificación
-<p> ✦ Planeamos realizar esta aplicación porque estamos conscientes, sobre todo por ser usuarios frecuentes de videojuegos, de la dificultad y el dificil acceso que tienen los jugadores a un catalago 'express' de skins, sobre todo para optimizar ventas (En caso de nuestro videojuego objetivo) y hacer mas dinámico y cómodo el poder visualizar dichas skins.</p>
+<p> ✦ Planeamos realizar esta aplicación porque estamos conscientes, sobre todo por ser usuarios frecuentes de videojuegos, del difícil acceso que tienen los jugadores a un catalago 'express' de skins, sobre todo para optimizar ventas (En caso de nuestro videojuego objetivo) y hacer mas dinámico y cómodo el poder visualizar dichas skins.</p>
 
 ### ★ Impacto
-<p> ✦ Va dirigido principalmente a jugadores de Counter Strike como primer obejtivo, pero planeamos realizarlo de manera global con cualquier tipo de juego, ya sea shooter o RPG, intentado facilitar el acceso a poder observar objetos de su juego preferido.</p>
+<p> ✦ Va dirigido principalmente a jugadores de Counter Strike como primer obejtivo, pero planeamos integrar la mayor cantidad de juegos posibles y de cualquier tipo en un futuro, intentado facilitar el acceso a poder observar objetos de su juego preferido.</p>
 
 
 
