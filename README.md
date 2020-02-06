@@ -11,7 +11,7 @@
 <p> ✦ Nuestra aplicación consiste en un catálogo de skins y artículos varios, principalmente del videojuego de Valve, CS:GO (Counter Strike), que facilita la búsqueda de skins, sus estados posibles, información destacada y precios en el mercado en línea.</p>
 
 ### ★ Objetivo general
-<p> ✦ Desarrollar un catálogo de artículos de videojuegos, utilizando herramientas y conocimientos de programación, para un fácil y rápido acceso a precios e información destacable.</p>
+<p> ✦ Desarrollar un catálogo de artículos de videojuegos, para un fácil y rápido acceso a precios e información destacable de estos, utilizando herramientas y conocimientos de programación, </p>
 
 ### ★ Objetivo específico
 <p> ✦ Realizar una aplicación movil, que permita a los usuarios un fácil acceso a la información destacable de todos los artículos y skins de cada uno de los videojuegos que tengamos registrados, y de ser posible, sus precios actuales en el mercado en línea, en este caso, nuestro primer enfoque es el videojuego "Counter Strike: Global Offensive", cuyos principales objetos son los siguientes:</p> 
