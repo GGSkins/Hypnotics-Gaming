@@ -1,4 +1,7 @@
-   # UNIVERSIDAD DEL CARIBE
+<p align="center"> 
+<img src="images/logounicaribe.png"/> 
+</p> 
+
    # DISEÑO MULTIMEDIA
    
 ### ☢ Nombre de la empresa
