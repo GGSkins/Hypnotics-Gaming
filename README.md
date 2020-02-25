@@ -5,10 +5,10 @@
    # DISEÑO MULTIMEDIA
    
 ### ☢ Nombre de la empresa
-<p>GGSkins</p>
+<p>Hypnotics Gaming</p>
 
 ### ☢ Nombre de la aplicación
-<p>Skin - Catalog</p>
+<p>GGSkins</p>
 
 ### ☢ Tipo de desarrollo
 <p>Aplicación Móvil</p>
