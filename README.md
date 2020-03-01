@@ -17,20 +17,13 @@
 <p> ✦ Vamos a desarrollar una aplicación móvil que consiste en un catálogo de skins y artículos varios, principalmente del videojuego de Valve, CS:GO (Counter Strike), que facilita la búsqueda de skins, sus estados posibles, información destacada y precios en el mercado en línea.</p>
 
 ### ★ Objetivo general
-<p> ✦ Desarrollar un catálogo de artículos de videojuegos, para un fácil y rápido acceso a precios e información destacable de estos, utilizando herramientas y conocimientos de programación, </p>
+<p> ✦ Desarrollar un catálogo de artículos de videojuegos, para un fácil y rápido acceso a precios e información destacable de estos, utilizando herramientas y conocimientos de programación. </p>
 
 ### ★ Objetivo específico
-<p> ✦ Realizar una aplicación movil, que permita a los usuarios un fácil acceso a la información destacable de todos los artículos y skins de cada uno de los videojuegos que tengamos registrados, y de ser posible, sus precios actuales en el mercado en línea, en este caso, nuestro primer enfoque es el videojuego "Counter Strike: Global Offensive", cuyos principales objetos son los siguientes:</p> 
-
-      *Skins para armas
-      *Cuchillos
-      *Guantes
-      *Cajas
-      *Skins para jugador
-      *Stickers
-      *Kits de música
-      *Graffitis
-      *Pins coleccionables
+<p> ✦ Diseñar una interfaz amigable para que el usuario se sienta cómodo.
+    ✦ Elaborar un apartado de opciones avanzadas que optimicen el tiempo de búsqueda de skins.
+    ✦ Definir opciones de ordenamiento de skins a partir de parámetros como el precio o rareza.
+    ✦ Obtener el precio en tiempo real de los skins desde el mercado oficial de Steam</p> 
      
 ### ★ Justificación
 <p> ✦ Planteamos realizar esta aplicación porque estamos conscientes, sobre todo por ser usuarios frecuentes de videojuegos, del difícil acceso que tienen los jugadores a un catalago 'express' de skins, sobre todo para optimizar ventas (En caso de nuestro videojuego objetivo) y hacer mas dinámico y cómodo el poder visualizar dichas skins.</p>
