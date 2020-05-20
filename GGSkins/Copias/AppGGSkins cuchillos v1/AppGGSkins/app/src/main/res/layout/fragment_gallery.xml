@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="379dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/head"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/text_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="372dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="19dp"
+        android:text="Ametralladoras"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="372dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="19dp"
+        android:text="Cuchillos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="372dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="19dp"
+        android:text="Escopetas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="372dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="447dp"
+        android:layout_marginEnd="19dp"
+        android:text="Pistolas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="372dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="529dp"
+        android:layout_marginEnd="19dp"
+        android:text="Rifles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="-63dp"
+        tools:layout_editor_absoluteY="193dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
