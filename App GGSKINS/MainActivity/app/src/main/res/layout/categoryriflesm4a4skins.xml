@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context=".CategoryRiflesAk47">
+    tools:context=".CategoryRiflesM4a4">
 
     <ImageView
         android:id="@+id/imageView"
@@ -25,7 +25,7 @@
         app:srcCompat="@drawable/go" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerAk47"
+        android:id="@+id/recyclerm4a4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"

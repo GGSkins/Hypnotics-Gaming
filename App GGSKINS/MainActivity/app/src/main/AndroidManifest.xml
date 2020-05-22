@@ -23,7 +23,12 @@
 
         <activity android:name=".CategorySmgMag7"/>
         <activity android:name=".CategoryPistolsCz75auto"/>
+
+        <activity android:name=".CategoryRiflesActivity"/>
         <activity android:name=".CategoryRiflesAk47"/>
+        <activity android:name=".CategoryRiflesAwp"/>
+        <activity android:name=".CategoryRiflesM4a4"/>
+
         <activity android:name=".CategoryHeavysMac10"/>
         <activity android:name=".ItemModel"/>
         <activity android:name=".RecyclerViewAdaptador"/>
@@ -31,7 +36,7 @@
         <activity android:name=".CategorySmgActivity"/>
         <activity android:name=".CategoryPistolsActivity"/>
         <activity android:name=".CategoryKnivesActivity"/>
-        <activity android:name=".CategoryRiflesActivity"/>
+
         <activity android:name=".CategoryHeavysActivity"/>
 
         <activity android:name=".NameActivity"/>

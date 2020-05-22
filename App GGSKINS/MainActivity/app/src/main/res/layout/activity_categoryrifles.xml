@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,6 +11,7 @@
         android:id="@+id/head"
         android:layout_width="364dp"
         android:layout_height="112dp"
+        android:layout_centerHorizontal="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,6 +22,7 @@
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="143dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.916"
@@ -29,31 +31,10 @@
         app:srcCompat="@drawable/category" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="367dp"
-        android:layout_height="184dp"
-        android:layout_marginTop="271dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/gray1" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="367dp"
-        android:layout_height="184dp"
-        android:layout_marginTop="488dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/gray1" />
-
-    <ImageView
         android:id="@+id/imageView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
         android:layout_marginTop="199dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.916"
@@ -61,27 +42,44 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/riflesmini" />
 
-    <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="154dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="271dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/asiimov" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 
     <ImageView
-        android:id="@+id/riflesak47"
-        android:layout_width="93dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="406dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@color/gray2" />
+        android:id="@+id/botonAwp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="260dp"
+        app:srcCompat="@drawable/botonawp" />
+
+    <ImageView
+        android:id="@+id/botonAk47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/botonak47" />
+
+    <ImageView
+        android:id="@+id/botonM4a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        app:srcCompat="@drawable/botonm4a4" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerRifles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -26,8 +26,8 @@ import java.util.Map;
 
 public class NameActivity extends AppCompatActivity {
 
-    EditText edtID,edtNombre, edtWear,edtPrice,edtMarket;
-    Button btnBuscar,btnAgregar;
+    EditText edtID,edtNombre, edtWear,edtPrice,edtMarket,edtCategory,edtSkinname;
+    Button btnBuscar,btnAgregar,btnName;
 
     RequestQueue requestQueue;
 
@@ -41,9 +41,12 @@ public class NameActivity extends AppCompatActivity {
         edtID=(EditText)findViewById(R.id.edtID);
         edtPrice=(EditText)findViewById(R.id.edtPrice);
         edtMarket=(EditText)findViewById(R.id.edtMarket);
+        edtCategory=(EditText)findViewById(R.id.edtCategory);
+        edtSkinname=(EditText)findViewById(R.id.edtSkinname);
 
         btnBuscar=(Button)findViewById(R.id.btnBuscar);
         btnAgregar=(Button)findViewById(R.id.btnAgregar);
+        btnName=(Button)findViewById(R.id.btnName);
 
         btnBuscar.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -57,6 +60,13 @@ public class NameActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 ejecutarServicio("http://martinpoot.atwebpages.com/insertar_producto.php");
+            }
+        });
+
+        btnName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                buscarName("http://martinpoot.atwebpages.com/searchname.php?name="+edtNombre.getText()+"");
             }
         });
     }
@@ -101,6 +111,8 @@ public class NameActivity extends AppCompatActivity {
                         edtWear.setText(jsonObject.getString("wear"));
                         edtPrice.setText(jsonObject.getString("price"));
                         edtMarket.setText(jsonObject.getString("market"));
+                        edtCategory.setText(jsonObject.getString("categoryname"));
+                        edtSkinname.setText(jsonObject.getString("skinname"));
                     } catch (JSONException e) {
                         Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
@@ -110,6 +122,37 @@ public class NameActivity extends AppCompatActivity {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(getApplicationContext(),"error "+edtID.getText(),Toast.LENGTH_SHORT).show();
+            }
+        }
+        );
+        requestQueue = Volley.newRequestQueue(this);
+        requestQueue.add(jsonArrayRequest);
+    }
+
+    private void buscarName(String URL){
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(URL, new Response.Listener<JSONArray>() {
+            @Override
+            public void onResponse(JSONArray response) {
+                JSONObject jsonObject = null;
+                for (int i = 0 ; i < response.length(); i++) {
+                    try {
+                        jsonObject = response.getJSONObject(i);
+                        edtID.setText(jsonObject.getString("id"));
+                        edtNombre.setText(jsonObject.getString("name"));
+                        edtWear.setText(jsonObject.getString("wear"));
+                        edtPrice.setText(jsonObject.getString("price"));
+                        edtMarket.setText(jsonObject.getString("market"));
+                        edtCategory.setText(jsonObject.getString("categoryname"));
+                        edtSkinname.setText(jsonObject.getString("skinname"));
+                    } catch (JSONException e) {
+                        Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(getApplicationContext(),"error "+edtNombre.getText(),Toast.LENGTH_SHORT).show();
             }
         }
         );

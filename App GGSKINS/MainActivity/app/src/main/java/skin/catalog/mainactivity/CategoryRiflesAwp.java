@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoryRiflesAk47 extends AppCompatActivity {
+public class CategoryRiflesAwp extends AppCompatActivity {
 
     ImageView ak47asiimov;
     private RecyclerView recyclerViewItem;
@@ -21,11 +21,11 @@ public class CategoryRiflesAk47 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.categoryriflesak47skins);
+        setContentView(R.layout.categoryriflesawpskins);
 
         ak47asiimov = (ImageView) findViewById(R.id.ak47asiimov);
 
-        recyclerViewItem=(RecyclerView) findViewById(R.id.recyclerAk47);
+        recyclerViewItem=(RecyclerView) findViewById(R.id.recyclerawp);
         recyclerViewItem.setLayoutManager(new LinearLayoutManager(this));
 
         adaptadorItem=new RecyclerViewAdaptador(getItem());
@@ -34,15 +34,15 @@ public class CategoryRiflesAk47 extends AppCompatActivity {
         ak47asiimov.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent i = new Intent(CategoryRiflesAk47.this, Ak47Asiimov.class);
+                Intent i = new Intent(CategoryRiflesAwp.this, Ak47Asiimov.class);
                 startActivity(i);
             }
         });
     }
     public List<ItemModel> getItem(){
         List<ItemModel> item= new ArrayList<>();
-        item.add(new ItemModel("Assimov","Text","Text","Text","Text",R.drawable.ak47asiimov));
-        item.add(new ItemModel("Barroque Purple","Text","Text","Text","Text",R.drawable.ak47baroquepurple));
+        item.add(new ItemModel("Acheron","Text","Text","Text","Text",R.drawable.awpacheron));
+        item.add(new ItemModel("BOOM","Text","Text","Text","Text",R.drawable.awpboom));
         return  item;
     }
 }
