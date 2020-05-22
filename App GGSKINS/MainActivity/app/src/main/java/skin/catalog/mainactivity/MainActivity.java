@@ -7,9 +7,16 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,9 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerViewItem;
     private RecyclerViewAdaptador adaptadorItem;
+
     ImageView categorymain;
     ImageView namemain;
     ImageView go;
+
 
 
     @Override
@@ -54,6 +63,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 
     public List<ItemModel> getItem(){
         List<ItemModel> item= new ArrayList<>();
