@@ -12,15 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:networkSecurityConfig="@xml/network_security_config">
-
         <activity android:name=".CategoryActivity"/>
-
         <activity android:name=".Mag7Justice"/>
         <activity android:name=".Cz75autoEco"/>
         <activity android:name=".Ak47Asiimov"/>
         <activity android:name=".Mac10CandyApple"/>
-
-
         <activity android:name=".CategorySmgMag7"/>
         <activity android:name=".CategoryPistolsCz75auto"/>
 
@@ -29,16 +25,16 @@
         <activity android:name=".CategoryRiflesAwp"/>
         <activity android:name=".CategoryRiflesM4a4"/>
 
+        <activity android:name=".CategorySmgActivity"/>
+        <activity android:name=".CategorySmgMac10"/>
+        <activity android:name=".CategorySmgMp9"/>
+
         <activity android:name=".CategoryHeavysMac10"/>
         <activity android:name=".ItemModel"/>
         <activity android:name=".RecyclerViewAdaptador"/>
-
-        <activity android:name=".CategorySmgActivity"/>
         <activity android:name=".CategoryPistolsActivity"/>
         <activity android:name=".CategoryKnivesActivity"/>
-
         <activity android:name=".CategoryHeavysActivity"/>
-
         <activity android:name=".NameActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
